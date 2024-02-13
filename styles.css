@@ -1,0 +1,25 @@
+body{font-family: Verdana;}
+
+
+
+.fondo {
+    background-color: rgb(206, 220, 201);
+}
+.miTexto {
+    font-size: 80px;
+    color: rgb(38, 34, 33);
+}
+h3{
+    color: cornflowerblue;
+}
+span{
+    color: rgb(78, 53, 162);
+}
+#principal{
+    font-size: 70px;
+    color: dimgray;
+}
+.logo{
+    width: 250px;
+
+}
