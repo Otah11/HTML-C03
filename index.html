@@ -4,30 +4,34 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Mi Primer Sitio Web</title>
-      <link rel="stylesheet" type="text/css" href="./styles.css" />
+      <link rel="stylesheet" href="reset.css">
+      <link rel="stylesheet" href="./styles.css" />
    </head>
 
    <body class="fondo">
 
         <header>
-            <h1 class="miTexto" id="principal">Estoy haciendo el prepcourse TITULO PRINCIPAL</h1>
-
+            <div id="titulos">
+            <h1 id="principal">Estoy haciendo el prepcourse TITULO PRINCIPAL</h1>
+            </div>
+            <div id="botones_superiores">
                 <span>Boton 1</span>
                 <span>Boton 2</span>
                 <span>Boton 3</span>
                 <span>Boton 4</span>
                 <span>Boton 5</span>
-            
+            </div>
 
         </header>
         
 
     <main>
 
-        <img src="extra.jpg" class="logo">
+
 
         <section>
-            <article>
+            <article class="cards">
+                <img src="extra.jpg" class="logo">
                 <h2>Probando las distintas etiquetas 1</h2>
                     <div>
                         <p>Aca agregramos texto al azar</p> 
@@ -35,8 +39,9 @@
                     </div>
             </article>
 <hr>
-        <img src="foto2.jpg" class="logo">
-            <article>
+        
+            <article class="cards">
+                <img src="foto2.jpg" class="logo">
                 <h2>Probando las distintas etiquetas 2</h2>
                     <h3>Otra etiqueta mas chica con un listado ordenado</h3>
                 <ol>
@@ -46,8 +51,8 @@
                 </ol>
             </article>
 <hr>
-        <img src="newspaper_bw.jpg" class="logo">
-            <article>
+            <article class="cards">
+                <img src="newspaper_bw.jpg" class="logo">
                 <h2>Probando las distintas etiquetas 3</h2>
                 <h3>aca vemos una lista desordenada</h3>
                 <ul>
@@ -59,6 +64,26 @@
             </article>
                 
 <hr>
+            <article>
+              <div id="cards-container">
+
+                <div class="cards2">
+                    <h2>IDEON</h2>
+                    <img src="ideon.jpg" class="logo2">
+                </div>
+                
+                <div class="cards2">
+                    <h2>GANDO ROWA</h2>
+                    <img src="gandorowa.jpg" class="logo2">
+                </div>
+                
+                <div class="cards2">
+                    <h2>GUNBUSTER</h2>
+                    <img src="gunbuster.jpg" class="logo2">
+                </div>
+                
+              </div>
+            </article>
         </section>
     </main>
 

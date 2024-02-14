@@ -6,7 +6,7 @@ body{font-family: Verdana;}
     background-color: rgb(206, 220, 201);
 }
 .miTexto {
-    font-size: 80px;
+    font-size: 1em;
     color: rgb(38, 34, 33);
 }
 h3{
@@ -16,10 +16,82 @@ span{
     color: rgb(78, 53, 162);
 }
 #principal{
-    font-size: 70px;
+    font-size: 3em;
     color: dimgray;
 }
+#titulos{
+    border: 2px black solid;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+
+
+}
+#cards-container{
+    width: 85vw;
+    margin: auto;
+    margin: top 1,5em;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
 .logo{
     width: 250px;
+    
+}
+
+.logo2{
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0px 2em 0px 2em;
+    border-radius: 2%;
+    transition: 1s;
+
+
+
+}
+.cards:hover{
+    background-color: rgb(44, 88, 8);
+    
+
+}
+.cards2{
+    width: fit-content;
+    padding: 1em 2em 2em 2em;
+    border-radius: 2%;
+    transition: 1s;    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+
+
+}
+.cards2:hover{
+    background-color: rgb(44, 88, 8);
+}
+#botones_superiores{
+    width: fit-content;
+    padding: 1em 2em 2em 2em;
+    border-radius: 2%;
+    transition: 1s;    
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    margin: auto;
 
 }
